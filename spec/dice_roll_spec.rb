@@ -6,6 +6,10 @@ describe "#roll" do
     expect(roll).to be_a(Integer)
   end
 
+def roll
+  puts = (rand(1..6)) 
+end
+
   it "should return a number greater than 0" do
     expect(roll).to be > 0
   end
